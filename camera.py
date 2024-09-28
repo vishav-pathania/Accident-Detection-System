@@ -3,7 +3,7 @@ from detection import AccidentDetectionModel
 import numpy as np
 import os
 
-model = AccidentDetectionModel("model.json", 'model_weights.h5')
+model = AccidentDetectionModel("model.json", 'model_weights.keras')
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 def startapplication():
